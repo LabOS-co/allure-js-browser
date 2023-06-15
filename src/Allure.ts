@@ -56,8 +56,8 @@ export abstract class Allure {
         this.link(url, name, LinkType.ISSUE);
     }
 
-    public tms(name: string, url: string): void {
-        this.link(url, name, LinkType.TMS);
+    public bug(name: string, url: string): void {
+        this.link(url, name, LinkType.BUG);
     }
 
     public description(markdown: string): void {

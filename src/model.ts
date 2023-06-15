@@ -150,5 +150,5 @@ export enum ContentType {
 
 export enum LinkType {
     ISSUE = 'issue',
-    TMS = 'tms'
+    BUG = 'bug'
 }

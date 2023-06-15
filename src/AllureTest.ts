@@ -45,7 +45,7 @@ export class AllureTest extends ExecutableItemWrapper {
         this.addLink(url, name, LinkType.ISSUE);
     }
 
-    addTmsLink(url: string, name: string): void {
-        this.addLink(url, name, LinkType.TMS);
+    addBugLink(url: string, name: string): void {
+        this.addLink(url, name, LinkType.BUG);
     }
 }
